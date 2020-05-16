@@ -3,11 +3,11 @@ This project consist of a `UITableView` displaying some files I loaded using the
 tap on any image in order to get a preview using an `UIImageView`.
 
 #### Table View
-<div style="text-align: center">
-  <img style="width: 200px" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project1/screenshots/screenshot1.png" alt="Table View">
-</div>
+<p align="center">
+  <img width="350" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project1/screenshots/screenshot1.png">
+</p>
 
 #### Image View
-<div style="text-align:center">
-  <img style="width: 200px" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project1/screenshots/screenshot2.png" alt="Table View">
-</div>
+<p align="center">
+  <img width="350" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project1/screenshots/screenshot2.png">
+</p>
