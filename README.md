@@ -7,7 +7,7 @@ I skipped days 1-15 as they were Swift only. Also, I'll post my progress and lea
 - [x] Day 17
 - [x] Day 18
 - [x] Day 19
-- [ ] Day 20
+- [x] Day 20
 - [ ] Day 21
 - [ ] Day 22
 
