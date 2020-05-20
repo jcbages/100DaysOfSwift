@@ -9,7 +9,7 @@ I skipped days 1-15 as they were Swift only. Also, I'll post my progress and lea
 - [x] Day 19
 - [x] Day 20
 - [x] Day 21
-- [ ] Day 22
+- [x] Day 22
 
 #### Day 23: Consolidation II
 - [ ] Day 23

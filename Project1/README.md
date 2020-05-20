@@ -11,3 +11,8 @@ tap on any image in order to get a preview using an `UIImageView`.
 <p align="center">
   <img width="350" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project1/screenshots/screenshot2.png">
 </p>
+
+#### Sharing
+<p align="center">
+  <img width="350" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project1/screenshots/screenshot3.png">
+</p>
