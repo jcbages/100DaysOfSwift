@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         score = 0
         askQuestion()
     }
-    
+
     @IBAction func buttonTapped(_ sender: UIButton) {
         var title = "Question \(currentQuestion)/\(MAX_QUESTIONS): "
 
