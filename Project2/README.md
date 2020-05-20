@@ -15,3 +15,8 @@ for dismissing the alert. I also changed the `CALayer` for the buttons so that I
 <p align="center">
   <img width="350" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project2/screenshots/screenshot2.png">
 </p>
+
+#### Score Button
+<p align="center">
+  <img width="350" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project2/screenshots/screenshot3.png">
+</p>
