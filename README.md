@@ -12,7 +12,7 @@ I skipped days 1-15 as they were Swift only. Also, I'll post my progress and lea
 - [x] Day 22
 
 #### Day 23: Consolidation II
-- [ ] Day 23
+- [x] Day 23
 
 #### Days 24-31: Web views, user input, and Auto Layout
 - [ ] Day 24
