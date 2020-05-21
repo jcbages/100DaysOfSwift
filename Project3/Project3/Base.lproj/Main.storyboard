@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ewh-TC-jr3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="2vM-uM-04K">
+            <objects>
+                <tableViewController id="bd2-cq-6pB" customClass="ViewController" customModule="Project3" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fae-Hw-ICO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FlagCell" textLabel="RKW-ZU-qTQ" style="IBUITableViewCellStyleDefault" id="jLP-2V-Nx7">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jLP-2V-Nx7" id="fEo-e7-uPJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RKW-ZU-qTQ">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="bd2-cq-6pB" id="aah-Aj-zgz"/>
+                            <outlet property="delegate" destination="bd2-cq-6pB" id="f6W-UO-xxU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="he1-aI-hqY"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xgD-dP-eXJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="99.776785714285708"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="hOb-vr-AVW">
+            <objects>
+                <viewController storyboardIdentifier="FlagDetail" id="8Q6-Ly-ySh" customClass="DetailViewController" customModule="Project3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pcw-jR-hkI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TSV-Ky-DNh">
+                                <rect key="frame" x="0.0" y="44" width="414" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TSV-Ky-DNh" secondAttribute="height" multiplier="2:1" id="Xm7-it-bdA"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="C1h-HP-CSf" firstAttribute="trailing" secondItem="TSV-Ky-DNh" secondAttribute="trailing" id="53m-fd-nQ2"/>
+                            <constraint firstItem="TSV-Ky-DNh" firstAttribute="leading" secondItem="C1h-HP-CSf" secondAttribute="leading" id="mZe-ej-X2g"/>
+                            <constraint firstItem="TSV-Ky-DNh" firstAttribute="top" secondItem="C1h-HP-CSf" secondAttribute="top" id="sXu-y8-JOp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="C1h-HP-CSf"/>
+                    </view>
+                    <connections>
+                        <outlet property="flagImage" destination="TSV-Ky-DNh" id="760-5Q-kUo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hOC-CG-wBi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1905.7971014492755" y="99.776785714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oiV-oE-PJc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ewh-TC-jr3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DcW-SB-RUl">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bd2-cq-6pB" kind="relationship" relationship="rootViewController" id="vZl-5f-xso"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cHF-Vg-3zj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.78260869565219" y="99.776785714285708"/>
+        </scene>
+    </scenes>
+</document>
