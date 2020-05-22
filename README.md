@@ -15,7 +15,7 @@ I skipped days 1-15 as they were Swift only. Also, I'll post my progress and lea
 - [x] Day 23
 
 #### Days 24-31: Web views, user input, and Auto Layout
-- [ ] Day 24
+- [x] Day 24
 - [ ] Day 25
 - [ ] Day 26
 - [ ] Day 27
