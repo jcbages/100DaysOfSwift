@@ -4,10 +4,10 @@ The options are displayed using an `UIAlertController` with the `.actionSheet` `
 
 #### Web Browser
 <p align="center">
-  <img width="350" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project1/screenshots/screenshot1.png">
+  <img width="350" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project4/screenshots/screenshot1.png">
 </p>
 
 #### Website Picker
 <p align="center">
-  <img width="350" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project1/screenshots/screenshot2.png">
+  <img width="350" src="https://github.com/jcbages/100DaysOfSwift/blob/master/Project4/screenshots/screenshot2.png">
 </p>
