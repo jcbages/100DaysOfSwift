@@ -13,6 +13,8 @@
 		A13085C0247781CA00FEF4EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13085BE247781CA00FEF4EA /* Main.storyboard */; };
 		A13085C2247781D300FEF4EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13085C1247781D300FEF4EA /* Assets.xcassets */; };
 		A13085C5247781D300FEF4EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13085C3247781D300FEF4EA /* LaunchScreen.storyboard */; };
+		A13085CD247B7ADE00FEF4EA /* URLPickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13085CC247B7ADE00FEF4EA /* URLPickerTableViewController.swift */; };
+		A13085CF247B7BA600FEF4EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13085CE247B7BA600FEF4EA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A13085C1247781D300FEF4EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A13085C4247781D300FEF4EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A13085C6247781D300FEF4EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13085CC247B7ADE00FEF4EA /* URLPickerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPickerTableViewController.swift; sourceTree = "<group>"; };
+		A13085CE247B7BA600FEF4EA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				A13085B8247781CA00FEF4EA /* AppDelegate.swift */,
 				A13085BA247781CA00FEF4EA /* SceneDelegate.swift */,
 				A13085BC247781CA00FEF4EA /* ViewController.swift */,
+				A13085CC247B7ADE00FEF4EA /* URLPickerTableViewController.swift */,
 				A13085BE247781CA00FEF4EA /* Main.storyboard */,
 				A13085C1247781D300FEF4EA /* Assets.xcassets */,
 				A13085C3247781D300FEF4EA /* LaunchScreen.storyboard */,
 				A13085C6247781D300FEF4EA /* Info.plist */,
+				A13085CE247B7BA600FEF4EA /* Constants.swift */,
 			);
 			path = Project4;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13085CF247B7BA600FEF4EA /* Constants.swift in Sources */,
 				A13085BD247781CA00FEF4EA /* ViewController.swift in Sources */,
+				A13085CD247B7ADE00FEF4EA /* URLPickerTableViewController.swift in Sources */,
 				A13085B9247781CA00FEF4EA /* AppDelegate.swift in Sources */,
 				A13085BB247781CA00FEF4EA /* SceneDelegate.swift in Sources */,
 			);

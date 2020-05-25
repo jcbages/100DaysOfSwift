@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+let WEBSITES = [
+    "apple.com",
+    "hackingwithswift.com"
+]
